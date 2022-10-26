@@ -22,6 +22,16 @@ packer.startup(function(use)
 
   -- LSP Stuff
   use { 'neoclide/coc.nvim', branch = 'release' }
+  use 'neovim/nvim-lspconfig'
+  use 'onsails/lspkind-nvim'
+
+  -- Completion
+  use 'hrsh7th/nvim-cmp'
+  use 'hrsh7th/cmp-buffer'
+  use 'hrsh7th/cmp-path'
+  use 'hrsh7th/cmp-cmdline'
+  use 'hrsh7th/cmp-nvim-lsp'
+  use({"L3MON4D3/LuaSnip", tag = "v<CurrentMajor>.*"})
 
   -- Git
   use 'lewis6991/gitsigns.nvim'
@@ -30,6 +40,8 @@ packer.startup(function(use)
   -- Elm
   use 'andys8/vim-elm-syntax'
   use 'elmcast/elm-vim'
+  use 'preservim/tagbar'
+  use 'bitterjug/vim-tagbar-ctags-elm'
 
   -- Terminal
   use 'voldikss/vim-floaterm'
@@ -37,7 +49,14 @@ packer.startup(function(use)
   -- Apperance
   use 'kyazdani42/nvim-web-devicons'
   use 'glepnir/dashboard-nvim'
+  use 'xiyaowong/nvim-transparent'
 
   -- Color Schemes
   use 'rebelot/kanagawa.nvim'
+  use 'joshdick/onedark.vim'
+  use 'NLKNguyen/papercolor-theme'
+  use { 'embark-theme/vim', as = 'embark' }
+  use 'sainnhe/gruvbox-material'
+  use 'Shatur/neovim-ayu'
+
 end)

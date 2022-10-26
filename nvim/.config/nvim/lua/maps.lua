@@ -37,9 +37,14 @@ keymap.set('n', '<C-w><right>', '<C-w>>')
 keymap.set('n', '<C-w><up>', '<C-w>+')
 keymap.set('n', '<C-w><down>', '<C-w>-')
 
+-- Packer
+keymap.set('n', '<Space>p', ':PackerSync <cr>')
+
+-- Reload NvimBuffer
+keymap.set('n', '<Space>r', ':so % <cr>')
+
 -- NvimTree
 keymap.set('n', 'fe', ':NvimTreeOpen <cr>')
-
 
 -- Floaterm
 keymap.set('n', ',<Space>', ':FloatermToggle <cr>')

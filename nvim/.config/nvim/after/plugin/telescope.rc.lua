@@ -42,6 +42,10 @@ telescope.setup {
 
 telescope.load_extension("file_browser")
 
+
+-- Remove border
+vim.api.nvim_set_hl(0, "TelescopeBorder", {ctermbg=220})
+
 -- Find Files
 vim.keymap.set('n', '<Leader>f',
   function()

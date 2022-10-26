@@ -6,14 +6,14 @@ vim.opt.fileencoding = 'utf-8'
 
 vim.o.relativenumber = true
 vim.o.number = true
-vim.opt.laststatus = 3
+vim.opt.laststatus = 2
 vim.opt.title = true
 vim.opt.autoindent = true
 vim.opt.smartindent = true
 vim.opt.hlsearch = true
 vim.opt.backup = false
 vim.opt.showcmd = true
-vim.opt.cmdheight = 1
+vim.opt.cmdheight = 0
 vim.opt.laststatus = 2
 vim.opt.expandtab = true
 vim.opt.scrolloff = 10
@@ -31,5 +31,18 @@ vim.opt.path:append { '**' } -- Finding files - Search down into subfolders
 vim.opt.wildignore:append { '*/node_modules/*' }
 vim.o.termguicolors = true
 vim.api.nvim_set_option("clipboard","unnamed")
+vim.api.nvim_set_keymap('i', '<Tab>', 'pumvisible() ? "\\<C-n>" : "\\<Tab>"', {expr = true})
+vim.api.nvim_set_keymap('i', '<S-Tab>', 'pumvisible() ? "\\<C-p>" : "\\<Tab>"', {expr = true})
+
+-- Fillchars
+vim.opt.fillchars = {
+  vert = "│",
+  fold = "⠀",
+  eob = " ",
+  msgsep = "‾",
+  foldopen = "▾",
+  foldsep = "│",
+  foldclose = "▸",
+}
 
 vim.cmd("colorscheme kanagawa")
