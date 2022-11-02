@@ -1,5 +1,8 @@
 # Packages & Tools
 
+> Before you start installing the packages, make sure you run **Manjaro**. I'm using the [community version](https://manjaro.org/download/)
+
+
 ### Terminal
 **Emulator** : Kitty
 * Fish Shell
