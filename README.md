@@ -43,9 +43,10 @@ pamac build i3-gaps rofi polybar nitrogen picom-ibhagwan-git
 * Youtube-DL
 * Spotify
 * Feh
+* Cava
 
 ```
-pamac build mvp ytfzfim youtube-dl spotify-launcher feh
+pamac build mvp ytfzfim youtube-dl spotify-launcher feh cava
 ```
 
 ### Other Tools
