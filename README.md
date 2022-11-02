@@ -1,6 +1,6 @@
 # Packages & Tools
 
-> Before you start installing the packages, make sure you run **Manjaro**. I'm using the [community version](https://manjaro.org/download/)
+> Before you start installing the packages, make sure you run **Manjaro**. I'm using the [community version](https://manjaro.org/download/) of Manjaro + i3wm
 
 
 ### Terminal
