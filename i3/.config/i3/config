@@ -4,6 +4,8 @@ exec --no-startup-id dex --autostart --environment i3
 exec --no-startup-id xss-lock --transfer-sleep-lock -- i3lock --nofork
 exec --no-startup-id nm-applet
 exec_always --no-startup-id $HOME/.config/polybar/launch.sh &
+exec_always --no-startup-id $HOME/.screenlayout/2h1v.sh &
+
 
 set $up k
 set $down j
@@ -11,9 +13,10 @@ set $left l
 set $right h
 
 
+
 #############   i3-gaps ###############
 for_window [class="^.*"] border pixel 0
-gaps inner 30
+gaps inner 15
 gaps outer 0
 smart_borders on
 smart_borders no_gaps
