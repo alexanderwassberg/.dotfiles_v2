@@ -45,4 +45,4 @@ vim.opt.fillchars = {
   foldclose = "▸",
 }
 
-vim.cmd("colorscheme kanagawa")
+vim.cmd("colorscheme onedark")
