@@ -6,12 +6,12 @@ exec --no-startup-id nm-applet
 exec_always --no-startup-id $HOME/.config/polybar/launch.sh &
 exec_always --no-startup-id $HOME/.screenlayout/2h1v.sh &
 
+font pango:Firacode
 
 set $up k
 set $down j
 set $left l
 set $right h
-
 
 
 #############   i3-gaps ###############
@@ -49,7 +49,7 @@ bindsym $mod+p exec --no-startup-id ~/.config/rofi/launchers/type-2/launcher.sh
 bindsym $mod+c exec gnome-calendar
 
 # Start Firefox
-bindsym $mod+t exec firefox
+bindsym $mod+t exec chromium
 
 # Kill focused window
 bindsym $mod+Shift+q kill
