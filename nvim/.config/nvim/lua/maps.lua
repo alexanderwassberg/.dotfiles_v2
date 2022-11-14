@@ -48,3 +48,6 @@ keymap.set('n', 'fe', ':NvimTreeOpen <cr>')
 
 -- Floaterm
 keymap.set('n', ',<Space>', ':FloatermToggle <cr>')
+
+-- TagBar
+keymap.set('n', '<Tab>', ':TagbarToggle <cr>')

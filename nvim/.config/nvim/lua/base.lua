@@ -45,4 +45,8 @@ vim.opt.fillchars = {
   foldclose = "▸",
 }
 
-vim.cmd("colorscheme onedark")
+vim.cmd("colorscheme kanagawa")
+
+vim.api.nvim_command([[
+    autocmd BufRead,BufNewFile *.elm set ft=haskell
+]])
