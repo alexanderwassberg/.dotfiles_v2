@@ -6,7 +6,6 @@ exec --no-startup-id nm-applet
 exec_always --no-startup-id $HOME/.config/polybar/launch.sh &
 exec_always --no-startup-id $HOME/.screenlayout/2h1v.sh &
 
-font pango:Firacode
 
 set $up k
 set $down j

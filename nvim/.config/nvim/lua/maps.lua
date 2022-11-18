@@ -51,3 +51,9 @@ keymap.set('n', ',<Space>', ':FloatermToggle <cr>')
 
 -- TagBar
 keymap.set('n', '<Tab>', ':TagbarToggle <cr>')
+
+-- CoC Reference
+keymap.set('n', 'gr', '<Plug>(coc-references)')
+
+-- CoC Rename
+keymap.set('n', 'rn', '<Plug>(coc-rename)')
