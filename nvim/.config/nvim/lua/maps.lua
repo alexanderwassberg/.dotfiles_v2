@@ -57,3 +57,13 @@ keymap.set('n', 'gr', '<Plug>(coc-references)')
 
 -- CoC Rename
 keymap.set('n', 'rn', '<Plug>(coc-rename)')
+
+-- Barbar
+
+keymap.set('n', 'tt', ':BufferMoveNext <cr>')
+keymap.set('n', 't1', ':BufferGoto 1 <cr>')
+keymap.set('n', 't2', ':BufferGoto 2 <cr>')
+keymap.set('n', 't3', ':BufferGoto 3 <cr>')
+keymap.set('n', 't4', ':BufferGoto 4 <cr>')
+keymap.set('n', 't5', ':BufferGoto 5 <cr>')
+keymap.set('n', 't6', ':BufferGoto 6 <cr>')

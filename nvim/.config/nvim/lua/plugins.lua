@@ -50,6 +50,7 @@ packer.startup(function(use)
     use 'kyazdani42/nvim-web-devicons'
     use 'glepnir/dashboard-nvim'
     use 'xiyaowong/nvim-transparent'
+    use {'romgrk/barbar.nvim', wants = 'nvim-web-devicons'}
 
     -- Color Schemes
     use 'rebelot/kanagawa.nvim'
@@ -58,6 +59,7 @@ packer.startup(function(use)
     use { 'embark-theme/vim', as = 'embark' }
     use 'sainnhe/gruvbox-material'
     use 'Shatur/neovim-ayu'
+    use { "catppuccin/nvim", as = "catppuccin" }
 
     -- Markdown Preview
     use({
