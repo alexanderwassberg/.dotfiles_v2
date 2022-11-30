@@ -52,9 +52,6 @@ keymap.set('n', ',<Space>', ':FloatermToggle <cr>')
 -- TagBar
 keymap.set('n', '<Tab>', ':TagbarToggle <cr>')
 
--- CoC Reference
-keymap.set('n', 'gr', '<Plug>(coc-references)')
-
 -- CoC Rename
 keymap.set('n', 'rn', '<Plug>(coc-rename)')
 
@@ -67,3 +64,7 @@ keymap.set('n', 't3', ':BufferGoto 3 <cr>')
 keymap.set('n', 't4', ':BufferGoto 4 <cr>')
 keymap.set('n', 't5', ':BufferGoto 5 <cr>')
 keymap.set('n', 't6', ':BufferGoto 6 <cr>')
+
+keymap.set('n', 'gt', '<CMD>Glance type_definitions<CR>')
+keymap.set('n', 'gd', '<CMD>Glance definitions<CR>')
+keymap.set('n', 'gr', '<CMD>Glance references<CR>')

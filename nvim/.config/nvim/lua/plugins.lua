@@ -33,6 +33,15 @@ packer.startup(function(use)
     use 'hrsh7th/cmp-nvim-lsp'
     use({"L3MON4D3/LuaSnip", tag = "v<CurrentMajor>.*"})
 
+    use({
+      "dnlhc/glance.nvim",
+      config = function()
+        require('glance').setup({
+          -- your configuration
+        })
+      end,
+    })
+
     -- Git
     use 'lewis6991/gitsigns.nvim'
     use 'dinhhuy258/git.nvim'
