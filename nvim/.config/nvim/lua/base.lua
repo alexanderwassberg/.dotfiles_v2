@@ -34,6 +34,13 @@ vim.api.nvim_set_option("clipboard","unnamed")
 vim.api.nvim_set_keymap('i', '<Tab>', 'pumvisible() ? "\\<C-n>" : "\\<Tab>"', {expr = true})
 vim.api.nvim_set_keymap('i', '<S-Tab>', 'pumvisible() ? "\\<C-p>" : "\\<Tab>"', {expr = true})
 
+
+-- UltiSnips
+vim.g.UltiSnipsExpandTrigger="<tab>"
+vim.g.UltiSnipsJumpForwardTrigger="<c-b>"
+vim.g.UltiSnipsJumpBackwardTrigger="<c-z>"
+vim.g.UltiSnipsEditSplit="vertical"
+
 -- Fillchars
 vim.opt.fillchars = {
   vert = "│",
@@ -46,7 +53,3 @@ vim.opt.fillchars = {
 }
 
 vim.cmd("colorscheme kanagawa")
-
-vim.api.nvim_command([[
-    autocmd BufRead,BufNewFile *.elm set ft=haskell
-]])

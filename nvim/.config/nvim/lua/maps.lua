@@ -1,18 +1,9 @@
 local keymap = vim.keymap
 
-vim.g.mapleader = ';'
-
-keymap.set('n', 'x', '"_x')
-
--- Increment/decrement numbers in buffer
-keymap.set('n', '+', '<C-a>')
-keymap.set('n', '-', '<C-x>')
+vim.g.mapleader = ' '
 
 -- Select all
 keymap.set('n', '<C-a>', 'gg<S-v>G')
-
--- New tab
-keymap.set('n', 'te', ':tabedit')
 
 -- Close Buffer
 keymap.set('n', '<Space>x', ':q <cr>')
@@ -42,9 +33,6 @@ keymap.set('n', '<Space>p', ':PackerSync <cr>')
 
 -- Reload NvimBuffer
 keymap.set('n', '<Space>r', ':so % <cr>')
-
--- NvimTree
-keymap.set('n', 'fe', ':NvimTreeOpen <cr>')
 
 -- Floaterm
 keymap.set('n', ',<Space>', ':FloatermToggle <cr>')

@@ -15,5 +15,5 @@ db.custom_header = {
   [[                                                                          ]],
   [[                                                                          ]],
 }
-db.preview_file_height = 12
+db.preview_file_height = 10
 db.preview_file_width = 80
