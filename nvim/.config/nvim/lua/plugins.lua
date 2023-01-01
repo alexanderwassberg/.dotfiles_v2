@@ -21,8 +21,10 @@ packer.startup(function(use)
     -- Elm Stuff
     use 'SirVer/ultisnips'
     use 'honza/vim-snippets'
-    use 'tpope/vim-sleuth'
+    use 'tpope/vim-sleuth' -- Shiftwidth / Expandwidth
     use 'elmcast/elm-vim'
+    use 'preservim/tagbar'
+    use 'bitterjug/vim-tagbar-ctags-elm'
 
 
     -- LSP Zero

@@ -52,4 +52,25 @@ vim.opt.fillchars = {
   foldclose = "▸",
 }
 
+
+vim.g.tagbar_type_elm = {
+    ctagstype = 'elm',
+    kinds = {
+        't:type',
+        'v:value',
+        'f:function'
+    },
+    sro = '.',
+    kind2scope = {
+        t = 'type',
+        v = 'value',
+        f = 'function'
+    },
+    scope2kind = {
+        type = 't',
+        value = 'v',
+    },
+    ctagsbin = 'ctags',
+    ctagsargs = '-R --languages=elm --exclude=elm-stuff'
+}
 vim.cmd("colorscheme kanagawa")
