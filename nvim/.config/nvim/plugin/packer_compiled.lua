@@ -114,6 +114,11 @@ _G.packer_plugins = {
     path = "/home/wassberg/.local/share/nvim/site/pack/packer/start/elm-vim",
     url = "https://github.com/elmcast/elm-vim"
   },
+  everforest = {
+    loaded = true,
+    path = "/home/wassberg/.local/share/nvim/site/pack/packer/start/everforest",
+    url = "https://github.com/sainnhe/everforest"
+  },
   ["friendly-snippets"] = {
     loaded = true,
     path = "/home/wassberg/.local/share/nvim/site/pack/packer/start/friendly-snippets",
@@ -129,6 +134,16 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/wassberg/.local/share/nvim/site/pack/packer/start/glance.nvim",
     url = "https://github.com/dnlhc/glance.nvim"
+  },
+  gruvbox = {
+    loaded = true,
+    path = "/home/wassberg/.local/share/nvim/site/pack/packer/start/gruvbox",
+    url = "https://github.com/morhetz/gruvbox"
+  },
+  ["jellybeans.vim"] = {
+    loaded = true,
+    path = "/home/wassberg/.local/share/nvim/site/pack/packer/start/jellybeans.vim",
+    url = "https://github.com/nanotech/jellybeans.vim"
   },
   ["kanagawa.nvim"] = {
     loaded = true,
@@ -165,6 +180,16 @@ _G.packer_plugins = {
     path = "/home/wassberg/.local/share/nvim/site/pack/packer/start/nvim-lspconfig",
     url = "https://github.com/neovim/nvim-lspconfig"
   },
+  ["nvim-transparent"] = {
+    loaded = true,
+    path = "/home/wassberg/.local/share/nvim/site/pack/packer/start/nvim-transparent",
+    url = "https://github.com/xiyaowong/nvim-transparent"
+  },
+  ["nvim-tree.lua"] = {
+    loaded = true,
+    path = "/home/wassberg/.local/share/nvim/site/pack/packer/start/nvim-tree.lua",
+    url = "https://github.com/nvim-tree/nvim-tree.lua"
+  },
   ["nvim-treesitter"] = {
     loaded = true,
     path = "/home/wassberg/.local/share/nvim/site/pack/packer/start/nvim-treesitter",
@@ -184,11 +209,6 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/wassberg/.local/share/nvim/site/pack/packer/start/plenary.nvim",
     url = "https://github.com/nvim-lua/plenary.nvim"
-  },
-  tagbar = {
-    loaded = true,
-    path = "/home/wassberg/.local/share/nvim/site/pack/packer/start/tagbar",
-    url = "https://github.com/preservim/tagbar"
   },
   ["telescope.nvim"] = {
     loaded = true,
@@ -214,11 +234,6 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/wassberg/.local/share/nvim/site/pack/packer/start/vim-snippets",
     url = "https://github.com/honza/vim-snippets"
-  },
-  ["vim-tagbar-ctags-elm"] = {
-    loaded = true,
-    path = "/home/wassberg/.local/share/nvim/site/pack/packer/start/vim-tagbar-ctags-elm",
-    url = "https://github.com/bitterjug/vim-tagbar-ctags-elm"
   }
 }
 

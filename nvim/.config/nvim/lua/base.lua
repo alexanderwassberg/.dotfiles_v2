@@ -40,6 +40,7 @@ vim.g.UltiSnipsExpandTrigger="<tab>"
 vim.g.UltiSnipsJumpForwardTrigger="<c-b>"
 vim.g.UltiSnipsJumpBackwardTrigger="<c-z>"
 vim.g.UltiSnipsEditSplit="vertical"
+vim.g.UltiSnipsSnippetsDir="/.config/nvim/UltiSnips/"
 
 -- Fillchars
 vim.opt.fillchars = {
@@ -52,25 +53,4 @@ vim.opt.fillchars = {
   foldclose = "▸",
 }
 
-
-vim.g.tagbar_type_elm = {
-    ctagstype = 'elm',
-    kinds = {
-        't:type',
-        'v:value',
-        'f:function'
-    },
-    sro = '.',
-    kind2scope = {
-        t = 'type',
-        v = 'value',
-        f = 'function'
-    },
-    scope2kind = {
-        type = 't',
-        value = 'v',
-    },
-    ctagsbin = 'ctags',
-    ctagsargs = '-R --languages=elm --exclude=elm-stuff'
-}
 vim.cmd("colorscheme kanagawa")

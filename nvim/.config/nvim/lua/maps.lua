@@ -37,22 +37,8 @@ keymap.set('n', '<Space>r', ':so % <cr>')
 -- Floaterm
 keymap.set('n', ',<Space>', ':FloatermToggle <cr>')
 
--- TagBar
-keymap.set('n', '<Tab>', ':TagbarToggle <cr>')
-
 -- CoC Rename
 keymap.set('n', 'rn', '<Plug>(coc-rename)')
 
--- Barbar
-
-keymap.set('n', 'tt', ':BufferMoveNext <cr>')
-keymap.set('n', 't1', ':BufferGoto 1 <cr>')
-keymap.set('n', 't2', ':BufferGoto 2 <cr>')
-keymap.set('n', 't3', ':BufferGoto 3 <cr>')
-keymap.set('n', 't4', ':BufferGoto 4 <cr>')
-keymap.set('n', 't5', ':BufferGoto 5 <cr>')
-keymap.set('n', 't6', ':BufferGoto 6 <cr>')
-
-keymap.set('n', 'gt', '<CMD>Glance type_definitions<CR>')
-keymap.set('n', 'gd', '<CMD>Glance definitions<CR>')
-keymap.set('n', 'gr', '<CMD>Glance references<CR>')
+-- NvimTree
+keymap.set('n', '<Tab>', ':NvimTreeToggle <cr>')
