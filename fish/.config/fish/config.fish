@@ -36,10 +36,13 @@ alias weather "curl wttr.in/$city"
 alias yt "ytfzf -t"
 
 # Dotfiles Aliases
-alias nvimconf "cd ~/.dotfiles/nvim/.config/nvim/"
-alias fishconf "cd ~/.dotfiles/fish/.config/fish/"
-alias i3conf "cd ~/.dotfiles/i3/.config/i3/"
-alias polybarconf "cd ~/.dotfiles/polybar/.config/polybar/"
-alias kittyconf "nvim ~/.dotfiles/kitty/.config/kitty/kitty.conf"
+alias nvimconf "cd ~/.dotfiles_v2/nvim/.config/nvim/"
+alias fishconf "cd ~/.dotfiles_v2/fish/.config/fish/"
+alias i3conf "cd ~/.dotfiles_v2/i3/.config/i3/"
+alias polybarconf "cd ~/.dotfiles_v2/polybar/.config/polybar/"
+alias kittyconf "nvim ~/.dotfiles_v2/kitty/.config/kitty/kitty.conf"
+
 
 fish_add_path /home/wassberg/.spicetify
+
+scheme set zenburn
