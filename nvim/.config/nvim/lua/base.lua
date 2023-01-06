@@ -54,3 +54,4 @@ vim.opt.fillchars = {
 }
 
 vim.cmd("colorscheme kanagawa")
+vim.cmd("highlight LineNr guifg=#BAC2DE")
