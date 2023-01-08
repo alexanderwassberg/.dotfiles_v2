@@ -45,4 +45,6 @@ alias kittyconf "nvim ~/.dotfiles_v2/kitty/.config/kitty/kitty.conf"
 
 fish_add_path /home/wassberg/.spicetify
 
+alias of "python3 ~/ordflaket/generator.py"
+
 scheme set zenburn
