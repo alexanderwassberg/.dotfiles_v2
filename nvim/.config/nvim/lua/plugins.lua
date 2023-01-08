@@ -23,6 +23,11 @@ packer.startup(function(use)
         tag = 'nightly' -- optional, updated every week. (see issue #1193)
     }
 
+    use({
+        "iamcco/markdown-preview.nvim",
+        run = function() vim.fn["mkdp#util#install"]() end,
+    })
+
     -- Elm Stuff
     use 'honza/vim-snippets'
     use 'tpope/vim-sleuth' -- Shiftwidth / Expandwidth
