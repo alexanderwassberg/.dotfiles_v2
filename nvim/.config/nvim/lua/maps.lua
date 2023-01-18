@@ -41,4 +41,4 @@ keymap.set('n', ',<Space>', ':FloatermToggle <cr>')
 keymap.set('n', 'rn', '<Plug>(coc-rename)')
 
 -- NvimTree
-keymap.set('n', '<Tab>', ':NvimTreeToggle <cr>')
+keymap.set('n', '<Tab>', ':NeoTreeRevealToggle <cr>')

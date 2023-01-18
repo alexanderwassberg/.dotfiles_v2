@@ -15,23 +15,20 @@ packer.startup(function(use)
     use 'voldikss/vim-floaterm'
     use { 'nvim-telescope/telescope.nvim', tag = '0.1.0', requires = { {'nvim-lua/plenary.nvim'} } }
     use 'SirVer/ultisnips'
-    use {
-        'nvim-tree/nvim-tree.lua',
-        requires = {
-            'nvim-tree/nvim-web-devicons', -- optional, for file icons
-        },
-        tag = 'nightly' -- optional, updated every week. (see issue #1193)
-    }
 
-    use({
-        "iamcco/markdown-preview.nvim",
-        run = function() vim.fn["mkdp#util#install"]() end,
-    })
+    use {
+        "nvim-neo-tree/neo-tree.nvim",
+        branch = "v2.x",
+        requires = { 
+            "nvim-lua/plenary.nvim",
+            "nvim-tree/nvim-web-devicons",
+            "MunifTanjim/nui.nvim",
+        }
+    }
 
     -- Elm Stuff
     use 'honza/vim-snippets'
     use 'tpope/vim-sleuth' -- Shiftwidth / Expandwidth
-    use 'elmcast/elm-vim'
 
     -- Appearance
     use 'glepnir/dashboard-nvim'

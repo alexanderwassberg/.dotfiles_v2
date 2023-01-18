@@ -109,11 +109,6 @@ _G.packer_plugins = {
     path = "/home/wassberg/.local/share/nvim/site/pack/packer/start/dashboard-nvim",
     url = "https://github.com/glepnir/dashboard-nvim"
   },
-  ["elm-vim"] = {
-    loaded = true,
-    path = "/home/wassberg/.local/share/nvim/site/pack/packer/start/elm-vim",
-    url = "https://github.com/elmcast/elm-vim"
-  },
   everforest = {
     loaded = true,
     path = "/home/wassberg/.local/share/nvim/site/pack/packer/start/everforest",
@@ -160,11 +155,6 @@ _G.packer_plugins = {
     path = "/home/wassberg/.local/share/nvim/site/pack/packer/start/lualine.nvim",
     url = "https://github.com/nvim-lualine/lualine.nvim"
   },
-  ["markdown-preview.nvim"] = {
-    loaded = true,
-    path = "/home/wassberg/.local/share/nvim/site/pack/packer/start/markdown-preview.nvim",
-    url = "https://github.com/iamcco/markdown-preview.nvim"
-  },
   ["mason-lspconfig.nvim"] = {
     loaded = true,
     path = "/home/wassberg/.local/share/nvim/site/pack/packer/start/mason-lspconfig.nvim",
@@ -174,6 +164,16 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/wassberg/.local/share/nvim/site/pack/packer/start/mason.nvim",
     url = "https://github.com/williamboman/mason.nvim"
+  },
+  ["neo-tree.nvim"] = {
+    loaded = true,
+    path = "/home/wassberg/.local/share/nvim/site/pack/packer/start/neo-tree.nvim",
+    url = "https://github.com/nvim-neo-tree/neo-tree.nvim"
+  },
+  ["nui.nvim"] = {
+    loaded = true,
+    path = "/home/wassberg/.local/share/nvim/site/pack/packer/start/nui.nvim",
+    url = "https://github.com/MunifTanjim/nui.nvim"
   },
   ["nvim-cmp"] = {
     loaded = true,
@@ -189,11 +189,6 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/wassberg/.local/share/nvim/site/pack/packer/start/nvim-transparent",
     url = "https://github.com/xiyaowong/nvim-transparent"
-  },
-  ["nvim-tree.lua"] = {
-    loaded = true,
-    path = "/home/wassberg/.local/share/nvim/site/pack/packer/start/nvim-tree.lua",
-    url = "https://github.com/nvim-tree/nvim-tree.lua"
   },
   ["nvim-treesitter"] = {
     loaded = true,
