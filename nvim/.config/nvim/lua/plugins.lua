@@ -19,8 +19,7 @@ packer.startup(function(use)
     use {
         "nvim-neo-tree/neo-tree.nvim",
         branch = "v2.x",
-        requires = { 
-            "nvim-lua/plenary.nvim",
+        requires = { "nvim-lua/plenary.nvim",
             "nvim-tree/nvim-web-devicons",
             "MunifTanjim/nui.nvim",
         }
@@ -31,21 +30,9 @@ packer.startup(function(use)
     use 'tpope/vim-sleuth' -- Shiftwidth / Expandwidth
 
     -- Appearance
-    use 'glepnir/dashboard-nvim'
     use 'xiyaowong/nvim-transparent'
     use 'rebelot/kanagawa.nvim'
     use 'nvim-tree/nvim-web-devicons'
-    use 'morhetz/gruvbox'
-    use 'sainnhe/everforest'
-    use 'nanotech/jellybeans.vim'
-    use({
-        "dnlhc/glance.nvim",
-        config = function()
-            require('glance').setup({
-                -- your configuration
-            })
-        end,
-    })
 
     -- LSP Zero
     use {

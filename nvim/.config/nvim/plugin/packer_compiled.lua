@@ -104,16 +104,6 @@ _G.packer_plugins = {
     path = "/home/wassberg/.local/share/nvim/site/pack/packer/start/cmp_luasnip",
     url = "https://github.com/saadparwaiz1/cmp_luasnip"
   },
-  ["dashboard-nvim"] = {
-    loaded = true,
-    path = "/home/wassberg/.local/share/nvim/site/pack/packer/start/dashboard-nvim",
-    url = "https://github.com/glepnir/dashboard-nvim"
-  },
-  everforest = {
-    loaded = true,
-    path = "/home/wassberg/.local/share/nvim/site/pack/packer/start/everforest",
-    url = "https://github.com/sainnhe/everforest"
-  },
   ["friendly-snippets"] = {
     loaded = true,
     path = "/home/wassberg/.local/share/nvim/site/pack/packer/start/friendly-snippets",
@@ -123,22 +113,6 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/wassberg/.local/share/nvim/site/pack/packer/start/gitsigns.nvim",
     url = "https://github.com/lewis6991/gitsigns.nvim"
-  },
-  ["glance.nvim"] = {
-    config = { "\27LJ\2\n8\0\0\3\0\3\0\a6\0\0\0'\2\1\0B\0\2\0029\0\2\0004\2\0\0B\0\2\1K\0\1\0\nsetup\vglance\frequire\0" },
-    loaded = true,
-    path = "/home/wassberg/.local/share/nvim/site/pack/packer/start/glance.nvim",
-    url = "https://github.com/dnlhc/glance.nvim"
-  },
-  gruvbox = {
-    loaded = true,
-    path = "/home/wassberg/.local/share/nvim/site/pack/packer/start/gruvbox",
-    url = "https://github.com/morhetz/gruvbox"
-  },
-  ["jellybeans.vim"] = {
-    loaded = true,
-    path = "/home/wassberg/.local/share/nvim/site/pack/packer/start/jellybeans.vim",
-    url = "https://github.com/nanotech/jellybeans.vim"
   },
   ["kanagawa.nvim"] = {
     loaded = true,
@@ -238,10 +212,6 @@ _G.packer_plugins = {
 }
 
 time([[Defining packer_plugins]], false)
--- Config for: glance.nvim
-time([[Config for glance.nvim]], true)
-try_loadstring("\27LJ\2\n8\0\0\3\0\3\0\a6\0\0\0'\2\1\0B\0\2\0029\0\2\0004\2\0\0B\0\2\1K\0\1\0\nsetup\vglance\frequire\0", "config", "glance.nvim")
-time([[Config for glance.nvim]], false)
 
 _G._packer.inside_compile = false
 if _G._packer.needs_bufread == true then
