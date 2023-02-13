@@ -20,6 +20,7 @@ ts.setup {
     "html",
     "lua",
     "javascript",
+    "elm",
 
   },
   autotag = {

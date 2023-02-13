@@ -33,6 +33,7 @@ packer.startup(function(use)
     use 'xiyaowong/nvim-transparent'
     use 'rebelot/kanagawa.nvim'
     use 'nvim-tree/nvim-web-devicons'
+    use {'romgrk/barbar.nvim', requires = 'nvim-web-devicons'}
 
     -- LSP Zero
     use {

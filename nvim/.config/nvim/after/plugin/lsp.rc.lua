@@ -5,7 +5,6 @@ lsp.preset('recommended')
 
 lsp.ensure_installed({
   'elmls',
-  'sumneko_lua',
 })
 
 lsp.nvim_workspace()

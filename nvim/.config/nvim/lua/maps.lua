@@ -42,3 +42,12 @@ keymap.set('n', 'rn', '<Plug>(coc-rename)')
 
 -- NvimTree
 keymap.set('n', '<Tab>', ':NeoTreeRevealToggle <cr>')
+
+-- BarBar
+keymap.set('n', '<C-1>', ':BufferGoto 1 <cr>')
+keymap.set('n', '<C-2>', ':BufferGoto 2 <cr>')
+keymap.set('n', '<C-3>', ':BufferGoto 3 <cr>')
+keymap.set('n', '<C-4>', ':BufferGoto 4 <cr>')
+keymap.set('n', '<C-5>', ':BufferGoto 5 <cr>')
+keymap.set('n', '<C-6>', ':BufferGoto 6 <cr>')
+
