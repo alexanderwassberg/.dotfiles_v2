@@ -20,20 +20,11 @@ alias v nvim
 alias ll "exa --long --icons"
 alias ls "exa --grid --icons"
 
-# Git
-alias gp "git push"
-alias gpl "git pull"
-alias gf "git fetch"
-
-alias g "git"
 alias gu "gitui"
 
 # Weather Shortcut
 set city saffle # Add your city
 alias weather "curl wttr.in/$city"
-
-# Youtube FZF
-alias yt "ytfzf -t"
 
 # Dotfiles Aliases
 alias nvimconf "cd ~/.dotfiles_v2/nvim/.config/nvim/"
@@ -42,10 +33,7 @@ alias i3conf "cd ~/.dotfiles_v2/i3/.config/i3/"
 alias polybarconf "cd ~/.dotfiles_v2/polybar/.config/polybar/"
 alias kittyconf "nvim ~/.dotfiles_v2/kitty/.config/kitty/kitty.conf"
 
-
 fish_add_path /home/wassberg/.spicetify
 
 alias of "python3 ~/ordflaket/generator.py"
 alias gl "python3 ~/wh/gitlab_issues.py"
-
-scheme set zenburn
