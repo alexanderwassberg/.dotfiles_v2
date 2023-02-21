@@ -43,7 +43,7 @@ bindsym $mod+t exec chromium
 bindsym $mod+Shift+q kill
 
 # Start dmenu
-bindsym $mod+d exec --no-startup-id dmenu_run
+bindsym $mod+d exec --no-startup-id dmenu_run -nb '#1E1F28' -sf '#1E1F28' -sb '#DCD7BA' -nf '#DCD7BA' 
 
 # split in vertical orientation
 bindsym $mod+v split v
