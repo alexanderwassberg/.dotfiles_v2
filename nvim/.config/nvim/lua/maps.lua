@@ -51,3 +51,5 @@ keymap.set('n', '<C-4>', ':BufferGoto 4 <cr>')
 keymap.set('n', '<C-5>', ':BufferGoto 5 <cr>')
 keymap.set('n', '<C-6>', ':BufferGoto 6 <cr>')
 
+keymap.set('n', '<C-x>', ':BufferClose <cr>')
+

@@ -15,6 +15,10 @@ packer.startup(function(use)
     use 'voldikss/vim-floaterm'
     use { 'nvim-telescope/telescope.nvim', tag = '0.1.0', requires = { {'nvim-lua/plenary.nvim'} } }
     use 'SirVer/ultisnips'
+    use {'ElPiloto/significant.nvim'}
+    use 'MunifTanjim/nui.nvim'
+    use 'dense-analysis/neural'
+
 
     use {
         "nvim-neo-tree/neo-tree.nvim",
@@ -30,10 +34,10 @@ packer.startup(function(use)
     use 'tpope/vim-sleuth' -- Shiftwidth / Expandwidth
 
     -- Appearance
-    use 'xiyaowong/nvim-transparent'
     use 'rebelot/kanagawa.nvim'
     use 'nvim-tree/nvim-web-devicons'
     use {'romgrk/barbar.nvim', requires = 'nvim-web-devicons'}
+    use 'xiyaowong/nvim-transparent'
 
     -- LSP Zero
     use {
