@@ -27,26 +27,22 @@ pamac build neovim packer
 ### Window Manager / Tools
 
 * i3-gaps - i3wm window gaps
-* Rofi - Search Tool
 * Polybar - Top Bar
 * Nitrogen - Wallpaper Manager
 * Picom - iBhagwan's fork with blur/radius
 
 ```
-pamac build i3-gaps rofi polybar nitrogen picom-ibhagwan-git
+pamac build i3-gaps polybar nitrogen picom-ibhagwan-git
 ```
 
 ### Media
 
-* MPV - Media Player
-* Ytfzfim - Youtube FZF
-* Youtube-DL
 * Spotify
 * Feh
 * Cava
 
 ```
-pamac build mvp ytfzfim youtube-dl spotify-launcher feh cava
+pamac build spotify-launcher feh cava
 ```
 
 ### Other Tools
@@ -54,14 +50,13 @@ pamac build mvp ytfzfim youtube-dl spotify-launcher feh cava
 * SSHFS - SSH Mounting
 * Stow - Symlink Manager
 * Node.js + npm
-* Gnome Calendar
-* Firefox
+* Chromium
 
 ```
-pamac build sshfs stow nodejs npm gnome-calendar firefox
+pamac build sshfs stow nodejs npm chromium
 ```
 
 ### Fonts
-* FiraCode (current favorite)
-* JetBrainsMono
+* FiraCode
+* JetBrainsMono (current favorite)
 * Hack
