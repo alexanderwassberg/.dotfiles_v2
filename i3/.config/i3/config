@@ -131,4 +131,4 @@ mode "resize" {
 
 bindsym $mod+r mode "resize"
 
-exec xset r rate 0 0 
+exec xset r rate 190 35
