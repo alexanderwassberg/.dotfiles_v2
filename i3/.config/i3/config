@@ -45,6 +45,9 @@ bindsym $mod+Shift+q kill
 # Start dmenu
 bindsym $mod+d exec --no-startup-id dmenu_run -nb '#1E1F28' -sf '#1E1F28' -sb '#DCD7BA' -nf '#DCD7BA' 
 
+# Start Rofi
+bindsym $mod+p exec --no-startup-id rofi -i -show drun -modi drun -show-icons
+
 # split in vertical orientation
 bindsym $mod+v split v
 
