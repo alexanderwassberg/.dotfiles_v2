@@ -38,6 +38,7 @@ packer.startup(function(use)
     use 'nvim-tree/nvim-web-devicons'
     use {'romgrk/barbar.nvim', requires = 'nvim-web-devicons'}
     use 'xiyaowong/nvim-transparent'
+    use 'lukoshkin/trailing-whitespace'
 
     -- LSP Zero
     use {

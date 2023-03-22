@@ -79,6 +79,11 @@ _G.packer_plugins = {
     path = "/home/wassberg/.local/share/nvim/site/pack/packer/start/LuaSnip",
     url = "https://github.com/L3MON4D3/LuaSnip"
   },
+  ["barbar.nvim"] = {
+    loaded = true,
+    path = "/home/wassberg/.local/share/nvim/site/pack/packer/start/barbar.nvim",
+    url = "https://github.com/romgrk/barbar.nvim"
+  },
   ["cmp-buffer"] = {
     loaded = true,
     path = "/home/wassberg/.local/share/nvim/site/pack/packer/start/cmp-buffer",
@@ -144,6 +149,11 @@ _G.packer_plugins = {
     path = "/home/wassberg/.local/share/nvim/site/pack/packer/start/neo-tree.nvim",
     url = "https://github.com/nvim-neo-tree/neo-tree.nvim"
   },
+  neural = {
+    loaded = true,
+    path = "/home/wassberg/.local/share/nvim/site/pack/packer/start/neural",
+    url = "https://github.com/dense-analysis/neural"
+  },
   ["nui.nvim"] = {
     loaded = true,
     path = "/home/wassberg/.local/share/nvim/site/pack/packer/start/nui.nvim",
@@ -184,10 +194,20 @@ _G.packer_plugins = {
     path = "/home/wassberg/.local/share/nvim/site/pack/packer/start/plenary.nvim",
     url = "https://github.com/nvim-lua/plenary.nvim"
   },
+  ["significant.nvim"] = {
+    loaded = true,
+    path = "/home/wassberg/.local/share/nvim/site/pack/packer/start/significant.nvim",
+    url = "https://github.com/ElPiloto/significant.nvim"
+  },
   ["telescope.nvim"] = {
     loaded = true,
     path = "/home/wassberg/.local/share/nvim/site/pack/packer/start/telescope.nvim",
     url = "https://github.com/nvim-telescope/telescope.nvim"
+  },
+  ["trailing-whitespace"] = {
+    loaded = true,
+    path = "/home/wassberg/.local/share/nvim/site/pack/packer/start/trailing-whitespace",
+    url = "https://github.com/lukoshkin/trailing-whitespace"
   },
   ultisnips = {
     loaded = true,

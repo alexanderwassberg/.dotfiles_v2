@@ -6,6 +6,9 @@ if status is-interactive
     # Commands to run in interactive sessions can go here
 end
 
+set -gx XDG_MUSIC_DIR "~/Music/"
+set -gx BROWSER "brave"
+
 # Autoloads Starship Prompt
 starship init fish | source
 
