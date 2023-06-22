@@ -5,7 +5,7 @@ exec --no-startup-id xss-lock --transfer-sleep-lock -- i3lock --nofork
 exec --no-startup-id nm-applet
 bindsym --release $mod+Ctrl+Shift+4 exec --no-startup-id maim --hidecursor --capturebackground --select | xclip -selection clipboard -t image/png
 exec_always --no-startup-id $HOME/.config/polybar/launch.sh &
-exec_always --no-startup-id $HOME/.screenlayout/2023.sh &
+exec_always --no-startup-id $HOME/.screenlayout/office.sh &
 
 set $up k
 set $down j

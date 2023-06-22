@@ -38,5 +38,5 @@ alias kittyconf "nvim ~/.dotfiles_v2/kitty/.config/kitty/kitty.conf"
 
 fish_add_path /home/wassberg/.spicetify
 
-alias of "python3 ~/ordflaket/generator.py"
+alias of "python3 ~/ordflaket_2.0/generator.py"
 alias gl "python3 ~/wh/gitlab_issues.py"
